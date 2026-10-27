@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "statlab"
+version = "0.1.0"
+description = "Stat 159 Lab Package for Data Science Computations"
+authors = [{ name = "Zhecen Zhou" }]
+dependencies = [
+    "numpy",
+    "pandas"
+]
